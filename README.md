@@ -39,7 +39,25 @@ The project tackles the challenge of large-scale data processing by implementing
 ---
 
 ## 🛠️ **Installation & Execution**
-1. **Clone the repository:**  
+ **Clone the repository:**  
 ```bash
-git clone <repository_url>
-cd LoanLens
+git https://github.com/Utkarshmishra2k2/LoanLens-HMDA-Loan-Data-Analysis-and-Modeling.git
+```
+## 🛠️ **Project Structure**
+```
+LoanLens/
+├── data/                   # Dataset files
+├── notebooks/              # Jupyter Notebooks for EDA and model training
+├── pyspark_pipeline.py     # PySpark script for large-scale data processing
+├── pandas_pipeline.py      # Pandas script for refined analysis and ML modeling
+├── model_metrics.json      # JSON file storing model evaluation metrics
+├── README.md               # Project documentation
+├── requirements.txt        # Python dependencies
+```
+
+## 🛠️ **Usage**
+ - Financial Analysis: Gain insights into loan distribution, income-to-loan ratios, and lending patterns.
+ - Modeling and Prediction: Use the trained model to predict loan amounts and evaluate lending risk.
+ - Scalable Data Processing: Handle massive datasets efficiently using PySpark’s distributed computing power.
+
+
